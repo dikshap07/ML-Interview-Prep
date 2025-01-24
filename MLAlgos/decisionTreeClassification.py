@@ -157,12 +157,12 @@ if __name__ == "__main__":
     training_data = [
         {'Age': 22, 'Income': 30000, 'Label': 'No'},
         {'Age': 25, 'Income': 35000, 'Label': 'No'},
-        {'Age': 30, 'Income': 40000, 'Label': 'Yes'},
-        {'Age': 35, 'Income': 50000, 'Label': 'Yes'},
-        {'Age': 40, 'Income': 60000, 'Label': 'Yes'},
+        {'Age': 30, 'Income': 40000, 'Label': 'No'},
+        {'Age': 35, 'Income': 50000, 'Label': 'No'},
+        {'Age': 40, 'Income': 60000, 'Label': 'No'},
         {'Age': 45, 'Income': 70000, 'Label': 'Yes'},
-        {'Age': 50, 'Income': 80000, 'Label': 'No'},
-        {'Age': 55, 'Income': 90000, 'Label': 'No'}
+        {'Age': 50, 'Income': 80000, 'Label': 'Yes'},
+        {'Age': 55, 'Income': 90000, 'Label': 'Yes'}
     ]
     features = ['Age', 'Income']
     decision_tree = DecisionTree(depth = 3,y_label='Label')
